@@ -1,0 +1,60 @@
+1.Java is known as the main file of the object oriented programming language and the javac is known as the java compiler of java program.
+
+2.JDK:-Java Developing Kit:-It is used for installing the java software.
+  JRE:-Java Runtime Environment:-It is used for the execute the program.
+  JVM:-Java Virtual Machine:-It is used in the automated machine.
+
+3.The limitations of the array are as follows:
+  a.It should have the same database.
+  b.It have the different elements in the same data.
+  
+4.Class:-The class is defined as the blue print of the templete.
+  Object:-The object is defined as the entity of the real world or the instances of the class. 
+  Signature of class:-The class should have the body{} and it consist the datatype of the class.
+  
+5.Array is defined as the elements having the same database.
+
+6. The difference between the .java file and .class file are the .java file is the main file and the .class file is known as the sub file of the main file of a given program.
+
+7.The length of the following array are : 
+
+8.The method signature is defined as the main method is a method and that contains the printing messages os the main class.
+
+9.The java is the object oriented programming language that is mainly used for the problem solving of the real world objects.
+
+10.The variable is defined as that can stores the value of the given data.
+   The types of variable are:int,float,double,boolean,string,byte,long,short
+   
+11.Class variable is defined as that stores the variables of the class of the given data.
+
+12.The data type is defined as the stores the data of any number.
+
+13.The java features are as follows:
+   1.It can solves the real world problems.
+   2.It as the more ability as compared to the other languages. 
+  
+14.The types of array in java are as follows:
+   1.Primitive
+   2.Non-primitive
+15.The array index is out of bound exception means the array is overflowing through the body of the given data.
+
+16.System.out.println() prints the message which is present in the class body.
+
+17.The double equal operator is mainly used for the recheck the values which are given to the operator
+
+18.The dot operator is used for accessing the different classes.
+
+19.For is the base class of all the classes.
+
+20.The 10 java keywords are:
+   1.static
+   2.void
+   3.class
+   4.public
+   5.main
+   6.system
+   7.println
+   8.out
+   9.new
+   10.For
+      
