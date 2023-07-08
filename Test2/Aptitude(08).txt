@@ -1,0 +1,41 @@
+***APTITUDE TEST:*** 
+1.Brother
+2.Grand Father
+3.Cousin
+4.maternal Uncle
+5.Nephew
+6.X*A+B
+7.R
+8.Brother
+9.Father
+10.S
+11.10 kms
+12.South
+13.South
+14.Weat
+
+***JAVA TEST:***
+1.Error.(The int cannot be converted to the Boolean)
+
+2.10,110
+
+3.Error.(The int cannot be converted to the Boolean)
+
+4.The main method is static because it invokes the instance of the class and it is the entry point of program
+
+5.class Reverse {
+   public static void main(String[] args)
+   {
+    int[] inputarray(10,45,7,9,2)
+ System.out.println("")
+    }
+ }
+
+6.
+
+7.
+
+8.The difference between this.and this() are:
+  this.--> it is used refer the member of the variables of the current object within a class
+  this()--> it is used as a constructor call that is used within a constructor of a class to invoke another constructor of the same class
+  
