@@ -23,19 +23,83 @@
 
 4.The main method is static because it invokes the instance of the class and it is the entry point of program
 
-5.class Reverse {
-   public static void main(String[] args)
-   {
-    int[] inputarray(10,45,7,9,2)
- System.out.println("")
+5.class ReverseNumbers {
+    public static void main(String[] args) {
+        int[] input = {10, 45, 7, 9, 2};
+        System.out.println("Input: " + Arrays.toString(input));
+        reverseNumbers(input);
+        System.out.println("Output: " + Arrays.toString(input));
+        }
+    public static void reverseNumbers(int[] numbers) {
+        int start = 0;
+        int end = numbers.length - 1;
+        while (start < end) {
+            int temp = numbers[start];
+            numbers[start] = numbers[end];
+            numbers[end] = temp;
+            start++;
+            end--;
+        }
     }
- }
+}
+6. 
 
-6.
-
-7.
+7.Done
 
 8.The difference between this.and this() are:
   this.--> it is used refer the member of the variables of the current object within a class
   this()--> it is used as a constructor call that is used within a constructor of a class to invoke another constructor of the same class
+
+9.public swap classNumbers{
+public static void main(String[] args)
+  int a = 5;
+  int b = 10;
+
+  System.out.println("Before swapping:");
+  System.out.println("a = " + a);
+  System.out.println("b = " + b);
+
+  a = a ^ b;
+  b = a ^ b;
+  a = a ^ b;
+
+  System.out.println("After swapping:");
+  System.out.println("a = " + a);
+  System.out.println("b = " + b);
+
+
+10.a)public class PrintPattern {
+    public static void main(String[] args) {
+        printPattern();
+    }
+    public static void printPattern() {
+        System.out.println("   &      &   ");
+        System.out.println("      &       ");
+        System.out.println("   &      &   ");
+    }
+}
+
+ b)public class PrintPattern {
+    public static void main(String[] args) {
+        printPattern();
+    }
+    public static void printPattern() {
+        System.out.println("   %  &  %   ");
+        System.out.println("   %  &  %   ");
+        System.out.println("   %  &  %   ");
+    }
+}
+
+C)public class PrintPattern {
+    public static void main(String[] args) {
+        printPattern();
+    }
+    public static void printPattern() {
+        System.out.println("   %   %   %   ");
+        System.out.println("   %       %   ");
+        System.out.println("   %   %   %   ");
+    }
+}
+
+
   
