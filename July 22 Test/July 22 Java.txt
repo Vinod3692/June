@@ -1,0 +1,74 @@
+1.Error
+
+2.Error
+
+3.Error
+
+4.length is 4
+
+5.
+
+6.Method parameters are variables mainly used in the method body to pass the values inside the class.
+
+7.compile time polymorphism is achieved through a mechanism called as generics,
+  this allow to write code that can be work with different types at compile time.
+  Example:- public class Example {
+
+     	public int add(int a, int b)
+	{
+        return a + b;
+    	}
+	public static void main(String[] args) {
+        Example example= new Example();
+        int output= example(5,10);
+        System.out.println("output of add(5,10):"+output);
+	}
+	}
+8.Var-args is known as the variable length arguments and that allows a method to accept a variable number of arguments of the same type.
+
+9.package is represented as the folder and which is created in the format of reverse domain
+	The import types are:
+	1.Implict
+	2.Explict 
+
+10.Constructor chaining is defined as the one constructor can be called in the another constructor within the same class.
+class Car{
+void Car(String name){
+system.out.println(name);
+}
+void Car(int model{
+}
+public static void main(string[] args){
+Car car=new Car();
+car.name="Shift";
+car.model=2018;
+system.out.println("the car name is ");
+system.out.println("the car model is ");
+}
+}
+
+11.class Chair{
+public static int Chair(int n) {
+if (n <= 0) {
+return 0;
+}
+else {
+return Chair(n - 1);
+}}
+public static void main(String[] args) {
+int n = 10; 
+System.out.println("Fibonacci number" + n + " is: " + Chair(n));
+}}
+
+12.
+
+13.
+
+14. The enumeration is defined as a set if fixed values like color,date,etc.. and in java it is represented as "enum".
+
+15.The Java Virtual Machine (JVM) performs number of steps to allocate memory and initialize the object.
+
+16.Constructor,referance,literal,methods.
+
+
+
